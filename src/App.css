@@ -1,0 +1,96 @@
+/* Background */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #0f2027, #0a0f1c);
+  color: #e0f7ff;
+}
+
+/* App Container */
+.app {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  color: #00f7ff;
+  text-shadow: 0 0 20px #00f7ff;
+}
+
+/* Glass Card */
+.input-card {
+  margin: 20px auto;
+  padding: 20px;
+  width: 300px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+/* Inputs */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid #00f7ff;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #00f7ff, #00c3ff);
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+button:hover {
+  box-shadow: 0 0 25px #00f7ff;
+  transform: scale(1.05);
+}
+
+/* Task List */
+.task-list {
+  margin-top: 30px;
+}
+
+/* Task Card */
+.task-card {
+  margin: 15px auto;
+  padding: 15px;
+  width: 300px;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+/* Completed */
+.completed {
+  text-decoration: line-through;
+  color: #00ffaa;
+}
+
+/* Actions */
+.actions {
+  margin-top: 10px;
+}
+
+.delete {
+  background: linear-gradient(45deg, #ff004c, #ff4d6d);
+  margin-left: 10px;
+  box-shadow: 0 0 10px #ff004c;
+}
+
+.delete:hover {
+  box-shadow: 0 0 20px #ff004c;
+}
